@@ -12,7 +12,10 @@ Underneath is a short description of what each script is able to do:
 6. LatticeParameterOptimizationDataFrame: after finished the simulation of all QE .in, this script access each .out file, get the value of the energy and the volume of the unit cell and saves it in a .csv file
 7. PlotEnergyVsLatticeParameter: Access the .csv file created in the step before and make a plot of the energy as a function of the unit cell volume (in angstron^3)
 
-To optimize the process, there is a shell script (Execution.sh) that calls all the other scripts ans executes the whole process in sequence.
+To optimize the process, there is a shell script (Execution.sh) that calls all the other scripts and executes the whole process in sequence.
+
+In other words, the only script that you need to run is the Execution.sh.
+
 When running the Execution.sh file, two new .sh scripts will be create, and within each of these files the complete set os Python scripts will be called.
 
 ** All the scripts were created using ABSOLUTE paths. Therefore, it's required to change it in some scripts in order to use them. **
