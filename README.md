@@ -1,6 +1,6 @@
-Study of TeO2 using Density Functional Theory (DFT)
+# Study of TeO2 using Density Functional Theory (DFT)
 
-In this repository there are a series of Python scripts that can be used to automatize the process of using Quantum Espresso (QE) to run simulations of TeO2.
+In this repository there is a series of Python scripts that can be used to automatize the process of using Quantum Espresso (QE) to run simulations of TeO2.
 
 Underneath is a short description of what each script is able to do:
 
